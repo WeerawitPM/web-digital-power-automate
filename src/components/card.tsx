@@ -6,7 +6,7 @@ export default function CardComponent({ href, src, document, title }: { href: st
     return (
         <div className="d-flex text-center">
             <Link href={href}>
-                <Card className="w-[270px]" isPressable isHoverable>
+                <Card className="w-[270px]" isPressable isHoverable radius="sm">
                     <CardBody className="bg-[#106ebe]">
                         <Image src={src} width={200} height={200} unoptimized alt='image' className="object-cover w-[100%]" />
                     </CardBody>
